@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="7" total="9" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Smoke Suite" duration-ms="12909" started-at="2019-06-16T18:59:59Z" finished-at="2019-06-16T19:00:12Z">
+    <groups>
+      <group name="smoke">
+        <method signature="LoginPageTest.doLogin()[pri:0, instance:com.syntax.testcases.LoginPageTest@52af6cff]" name="doLogin" class="com.syntax.testcases.LoginPageTest"/>
+        <method signature="LoginPageTest.loginToOrangeHRM()[pri:0, instance:com.syntax.testcases.LoginPageTest@52af6cff]" name="loginToOrangeHRM" class="com.syntax.testcases.LoginPageTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Smoke Test" duration-ms="12909" started-at="2019-06-16T18:59:59Z" finished-at="2019-06-16T19:00:12Z">
+      <class name="com.syntax.testcases.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.syntax.testcases.LoginPageTest@52af6cff]" name="setUp" is-config="true" duration-ms="3489" started-at="2019-06-16T18:59:59Z" finished-at="2019-06-16T19:00:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="doLogin()[pri:0, instance:com.syntax.testcases.LoginPageTest@52af6cff]" name="doLogin" duration-ms="2940" started-at="2019-06-16T19:00:03Z" finished-at="2019-06-16T19:00:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.syntax.testcases.LoginPageTest@52af6cff]" name="tearDown" is-config="true" duration-ms="181" started-at="2019-06-16T19:00:06Z" finished-at="2019-06-16T19:00:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.syntax.testcases.LoginPageTest@52af6cff]" name="setUp" is-config="true" duration-ms="2773" started-at="2019-06-16T19:00:06Z" finished-at="2019-06-16T19:00:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginToOrangeHRM()[pri:0, instance:com.syntax.testcases.LoginPageTest@52af6cff]" name="loginToOrangeHRM" duration-ms="2686" started-at="2019-06-16T19:00:09Z" finished-at="2019-06-16T19:00:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToOrangeHRM -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.syntax.testcases.LoginPageTest@52af6cff]" name="tearDown" is-config="true" duration-ms="155" started-at="2019-06-16T19:00:11Z" finished-at="2019-06-16T19:00:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.syntax.testcases.LoginPageTest -->
+      <class name="com.syntax.testcases.AddLocationPageTest">
+        <test-method status="PASS" signature="generateReport()[pri:0, instance:com.syntax.testcases.AddLocationPageTest@54a097cc]" name="generateReport" is-config="true" duration-ms="169" started-at="2019-06-16T18:59:59Z" finished-at="2019-06-16T18:59:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
+        <test-method status="PASS" signature="flushReport()[pri:0, instance:com.syntax.testcases.AddLocationPageTest@54a097cc]" name="flushReport" is-config="true" duration-ms="472" started-at="2019-06-16T19:00:12Z" finished-at="2019-06-16T19:00:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+      </class> <!-- com.syntax.testcases.AddLocationPageTest -->
+    </test> <!-- Smoke Test -->
+  </suite> <!-- Smoke Suite -->
+</testng-results>
